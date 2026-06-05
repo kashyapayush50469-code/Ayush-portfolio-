@@ -1,0 +1,294 @@
+.Navigation{list-style-type: none;
+display: flex;
+gap: 40px; 
+margin: 0;
+padding: 15px 20px; 
+overflow: hidden;
+background-color: blue;
+}
+.Navigation li{float: left;
+}
+.Navigation li a{display: block;
+text-align: center;
+color: white;
+padding: 10px;
+text-decoration: transparent;
+}
+.Navigation li a:hover{background-color: black;}
+.nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.container{display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 50px;
+}
+.intro{flex: 1;
+    font-size: 99%;
+}
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.button{display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+ .leftbotton{background-color: blue;
+    border: none;
+    margin-right: auto;
+    border-radius: 5px;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.leftbotton:hover{background-color: yellowgreen;}
+.rightbotton{margin-left: auto;
+cursor: pointer;
+padding: 12px 20px;
+border: none;
+border-radius: 5px;
+background-color: blue;
+font-size: 15px;
+color: white;
+}
+.rightbotton:hover{background-color: yellowgreen;}
+h1{font-size: 40px;}
+img{border-radius: 20px;}
+.image2{display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 50px;
+
+   
+}
+.paragraph2{
+    margin-left: 50px;
+    margin-right: 50px; 
+    margin-top: 0px;
+    text-align: justify;
+    font-size: 20px;
+    padding: 20px;
+    background-color: lightgreen;
+}
+
+.image2.paragraph2{margin-top: 10px;
+padding: 5px;}
+.paragraph2{background-color: white;
+}
+.paragraph2 p{margin: 5px;
+    outline-style: solid;
+    outline-width: 25px;
+    outline-color: blue;
+    border: 10px solid red;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    background-color:rgba(255, 255, 255, 0.033);
+}
+.about2{margin-left:50px;
+    text-shadow: 2px 2px 5px blue;
+    
+}
+
+.button1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        margin-top: 50px; 
+    }
+.leftbutton2{background-color: blue;
+    border: none;
+    margin-right: auto;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 25px;
+}
+
+.leftbutton2:hover {
+    background-color: yellowgreen;
+}
+
+.rightbutton2{
+        margin-left: auto;
+        cursor: pointer;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: blue;
+        font-size: 15px;
+        margin-right: 25px;
+    }
+
+.rightbutton2:hover {
+    background-color: yellowgreen;}
+
+        .allabout {
+            margin: 0;
+            margin-top: 50px;
+            padding: 5px;
+            background-color: blue;
+        }
+    
+        .allabout>h1,
+        .about{
+            margin: 10px;
+            padding: 5px;
+        }
+    
+        .about {
+            background-color: white;
+        }
+    
+        .about>h2,
+        p {
+            margin: 4px;
+            font-size: 90%;
+        }
+
+        .button2{display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        margin-top: 50px;}
+
+        .leftbutton3{background-color: blue;
+        border: none;
+        margin-right: auto;
+        border-radius: 5px;
+        padding: 10px 20px;
+        cursor: pointer;
+        font-size: 15px;
+        margin-left: 25px;}
+        .leftbutton3:hover {
+            background-color: yellowgreen; 
+        }
+        .rightbutton3{
+            margin-left: auto;
+            cursor: pointer;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: blue;
+            font-size: 15px;
+            margin-right: 25px;
+        }
+        .rightbutton3:hover {
+            background-color: yellowgreen;       
+        }
+
+                .allcontact {
+                    margin: 0;
+                    margin-top: 50px;
+                    padding: 5px;
+                    background-color: blue;
+                    margin-left: 200px;
+                    margin-right: 200px;
+                }
+                .allcontact h1{text-shadow: 2px 2px 5px red;}
+        
+                .allcontact>h1,
+                .contact{
+                    margin: 10px;
+                    padding: 5px;
+                }
+        
+                .contact {
+                    background-color: white;
+                }
+        
+                .contact>h2,
+                p {
+                    margin: 4px;
+                    font-size: 20px;}
+
+    .finalabout{margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    color: white;
+    outline-width: 5px;
+    text-align: center;
+    background-color: blue; 
+    text-shadow: 2px 2px 5px red;
+
+}
+
+.more{display: block; 
+text-align: center;
+margin-top:70px;
+margin-left: 550px;
+border-radius: 8px;
+padding: 20px 40px;
+background-color: blue;
+}
+.more:hover{background-color: yellowgreen;}
+
+.finalbutton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.finalleftbutton{
+    background-color: blue;
+    border: none;
+    margin-right: auto;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 25px;
+}
+
+.finalleftbutton:hover {
+    background-color: yellowgreen;
+}
+
+.finalrightbutton {
+    margin-left: auto;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    font-size: 15px;
+    margin-right: 25px;
+}
+
+.finalrightbutton:hover {
+    background-color: yellowgreen;}
