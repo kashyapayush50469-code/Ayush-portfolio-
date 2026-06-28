@@ -82,6 +82,8 @@ font-size: 15px;
 color: white;
 }
 .rightbotton:hover{background-color: yellowgreen;}
+
+/* This is About section of css  */
 h1{font-size: 40px;}
 img{border-radius: 20px;}
 .image2{display: flex;
